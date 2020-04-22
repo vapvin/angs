@@ -9,6 +9,14 @@ import { Component } from '@angular/core';
         }
     `]
 })
-export class Test {
+export class Test implements OnInit {
 
+    constructor() {
+        
+    }
+    
+    ngOnInit() {
+
+    }
+    
 }
